@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0); /* Sombra de texto para contraste */
+    transition: filter 0.5s; /* Transición suave */
+
+}
+
+.grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.menu-item-text {
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-repeat-text {
+    font-size: 8px;
+    text-align: center;
+    width: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 1px;
+
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 8px;
+    text-align: center;
+}
+
+#colorPicker {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    margin-left: 50px;
+    top: 200px; 
+}
+
+
+.container-content {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    width: 800px;
+}
+
+.content-c3 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.color-repeat {
+    margin-right: 10px;
+    height: 40px;
+    width: 20px;
+    border: 3px solid white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.grayscale {
+    filter: grayscale(100%);
+}
+button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

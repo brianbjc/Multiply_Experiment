@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <button id="toggleButton" onclick="toggleGrayscale()">Grey</button>
+    
+
+
+        <div class="container-content">
+            <div class="content-c1"></div>
+            <div class="content-c2">
+                <div class="menu">
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-1" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker1" name="colorPicker" value="#ff0000">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-2" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker2" name="colorPicker" value="#ff00ff">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-3" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker3" name="colorPicker" value="#0000ff">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-4" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker4" name="colorPicker" value="#00ffff">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-5" for="colorPicker"></label>  
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker5" name="colorPicker" value="#00ff00">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-6" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker6" name="colorPicker" value="#ffff00">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-7" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker7" name="colorPicker" value="#ffffff">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-8" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker8" name="colorPicker" value="#d8d8d8">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-9" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker9" name="colorPicker" value="#545454">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                        <label id="colorpicker-text-10" for="colorPicker"></label>
+                    </div>
+                    <div class="menu-item-picker">
+                        <input type="color" id="colorPicker10" name="colorPicker" value="#000000">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="content-c3">
+                <div class="color-repeat-text" id="color-repeat-1-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-1"></div>
+                <div class="color-repeat-text" id="color-repeat-2-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-2"></div>
+                <div class="color-repeat-text" id="color-repeat-3-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-3"></div>
+                <div class="color-repeat-text" id="color-repeat-4-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-4"></div>
+                <div class="color-repeat-text" id="color-repeat-5-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-5"></div>
+                <div class="color-repeat-text" id="color-repeat-6-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-6"></div>
+                <div class="color-repeat-text" id="color-repeat-7-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-7"></div>
+                <div class="color-repeat-text" id="color-repeat-8-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-8"></div>
+                <div class="color-repeat-text" id="color-repeat-9-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-9"></div>
+                <div class="color-repeat-text" id="color-repeat-10-text">
+                    
+                </div>
+                <div class="color-repeat" id="color-repeat-10"></div>
+                
+            </div>
+            <div class="grid-container">
+                <div class="grid-item" id="grid-item-1-1"></div>
+                <div class="grid-item" id="grid-item-1-2"></div>
+                <div class="grid-item" id="grid-item-1-3"></div>
+                <div class="grid-item" id="grid-item-1-4"></div>
+                <div class="grid-item" id="grid-item-1-5"></div>
+                <div class="grid-item" id="grid-item-1-6"></div>
+                <div class="grid-item" id="grid-item-1-7"></div>
+                <div class="grid-item" id="grid-item-1-8"></div>
+                <div class="grid-item" id="grid-item-1-9"></div>
+                <div class="grid-item" id="grid-item-1-10"></div>
+                <div class="grid-item" id="grid-item-2-1"></div>
+                <div class="grid-item" id="grid-item-2-2"></div>
+                <div class="grid-item" id="grid-item-2-3"></div>
+                <div class="grid-item" id="grid-item-2-4"></div>
+                <div class="grid-item" id="grid-item-2-5"></div>
+                <div class="grid-item" id="grid-item-2-6"></div>
+                <div class="grid-item" id="grid-item-2-7"></div>
+                <div class="grid-item" id="grid-item-2-8"></div>
+                <div class="grid-item" id="grid-item-2-9"></div>
+                <div class="grid-item" id="grid-item-2-10"></div>
+                <div class="grid-item" id="grid-item-3-1"></div>
+                <div class="grid-item" id="grid-item-3-2"></div>
+                <div class="grid-item" id="grid-item-3-3"></div>
+                <div class="grid-item" id="grid-item-3-4"></div>
+                <div class="grid-item" id="grid-item-3-5"></div>
+                <div class="grid-item" id="grid-item-3-6"></div>
+                <div class="grid-item" id="grid-item-3-7"></div>
+                <div class="grid-item" id="grid-item-3-8"></div>
+                <div class="grid-item" id="grid-item-3-9"></div>
+                <div class="grid-item" id="grid-item-3-10"></div>
+                <div class="grid-item" id="grid-item-4-1"></div>
+                <div class="grid-item" id="grid-item-4-2"></div>
+                <div class="grid-item" id="grid-item-4-3"></div>
+                <div class="grid-item" id="grid-item-4-4"></div>
+                <div class="grid-item" id="grid-item-4-5"></div>
+                <div class="grid-item" id="grid-item-4-6"></div>
+                <div class="grid-item" id="grid-item-4-7"></div>
+                <div class="grid-item" id="grid-item-4-8"></div>
+                <div class="grid-item" id="grid-item-4-9"></div>
+                <div class="grid-item" id="grid-item-4-10"></div>
+                <div class="grid-item" id="grid-item-5-1"></div>
+                <div class="grid-item" id="grid-item-5-2"></div>
+                <div class="grid-item" id="grid-item-5-3"></div>
+                <div class="grid-item" id="grid-item-5-4"></div>
+                <div class="grid-item" id="grid-item-5-5"></div>
+                <div class="grid-item" id="grid-item-5-6"></div>
+                <div class="grid-item" id="grid-item-5-7"></div>
+                <div class="grid-item" id="grid-item-5-8"></div>
+                <div class="grid-item" id="grid-item-5-9"></div>
+                <div class="grid-item" id="grid-item-5-10"></div>
+                <div class="grid-item" id="grid-item-6-1"></div>
+                <div class="grid-item" id="grid-item-6-2"></div>
+                <div class="grid-item" id="grid-item-6-3"></div>
+                <div class="grid-item" id="grid-item-6-4"></div>
+                <div class="grid-item" id="grid-item-6-5"></div>
+                <div class="grid-item" id="grid-item-6-6"></div>
+                <div class="grid-item" id="grid-item-6-7"></div>
+                <div class="grid-item" id="grid-item-6-8"></div>
+                <div class="grid-item" id="grid-item-6-9"></div>
+                <div class="grid-item" id="grid-item-6-10"></div>
+                <div class="grid-item" id="grid-item-7-1"></div>
+                <div class="grid-item" id="grid-item-7-2"></div>
+                <div class="grid-item" id="grid-item-7-3"></div>
+                <div class="grid-item" id="grid-item-7-4"></div>
+                <div class="grid-item" id="grid-item-7-5"></div>
+                <div class="grid-item" id="grid-item-7-6"></div>
+                <div class="grid-item" id="grid-item-7-7"></div>
+                <div class="grid-item" id="grid-item-7-8"></div>
+                <div class="grid-item" id="grid-item-7-9"></div>
+                <div class="grid-item" id="grid-item-7-10"></div>
+                <div class="grid-item" id="grid-item-8-1"></div>
+                <div class="grid-item" id="grid-item-8-2"></div>
+                <div class="grid-item" id="grid-item-8-3"></div>
+                <div class="grid-item" id="grid-item-8-4"></div>
+                <div class="grid-item" id="grid-item-8-5"></div>
+                <div class="grid-item" id="grid-item-8-6"></div>
+                <div class="grid-item" id="grid-item-8-7"></div>
+                <div class="grid-item" id="grid-item-8-8"></div>
+                <div class="grid-item" id="grid-item-8-9"></div>
+                <div class="grid-item" id="grid-item-8-10"></div>
+                <div class="grid-item" id="grid-item-9-1"></div>
+                <div class="grid-item" id="grid-item-9-2"></div>
+                <div class="grid-item" id="grid-item-9-3"></div>
+                <div class="grid-item" id="grid-item-9-4"></div>
+                <div class="grid-item" id="grid-item-9-5"></div>
+                <div class="grid-item" id="grid-item-9-6"></div>
+                <div class="grid-item" id="grid-item-9-7"></div>
+                <div class="grid-item" id="grid-item-9-8"></div>
+                <div class="grid-item" id="grid-item-9-9"></div>
+                <div class="grid-item" id="grid-item-9-10"></div>
+                <div class="grid-item" id="grid-item-10-1"></div>
+                <div class="grid-item" id="grid-item-10-2"></div>
+                <div class="grid-item" id="grid-item-10-3"></div>
+                <div class="grid-item" id="grid-item-10-4"></div>
+                <div class="grid-item" id="grid-item-10-5"></div>
+                <div class="grid-item" id="grid-item-10-6"></div>
+                <div class="grid-item" id="grid-item-10-7"></div>
+                <div class="grid-item" id="grid-item-10-8"></div>
+                <div class="grid-item" id="grid-item-10-9"></div>
+                <div class="grid-item" id="grid-item-10-10"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js_calc.js"></script>
+    <script src="js_dom.js"></script>
+
+</body>
+</html>
